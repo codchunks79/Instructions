@@ -1,0 +1,71 @@
+.wrapper{ }
+.grey{background: #f1f1f1;padding: 20px 0px;border-bottom: 1px solid #ffffff;}
+
+.greyTwo{background: #E9E9E9;padding: 20px 0px; border-bottom: 1px solid #ffffff;}
+
+.wrapperTwo{ padding: 5px 50px; background: #f1f1f1;}
+
+.headerWrapper{ padding: 15px 20px; background: #ffffff;}
+
+h2{font-size: 24px; color: #464646; font-family: 'Raleway', sans-serif; margin-bottom:0px; font-weight: 300; letter-spacing: 1px; margin-top: 5px;}
+p{font-size: 32px;  letter-spacing: 2px; color: #464646; font-family: 'Raleway', sans-serif;margin: 8px 0px;}
+
+.noPadding{padding:0px;}
+
+.card{ }
+.innerCard{background:#ffffff; box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.35); border-radius: 5px; border-bottom: 2px solid #8934B9; padding: 10px 10px; width: 100%;}
+
+.form { width: inherit; margin: 0 auto; text-align: center; width: 100%; margin-left: auto ; margin-right: auto ;}
+
+.form-lock-up{    margin: 0 auto; padding-bottom: 10px; padding-top: 0px; margin-top: 5px;}
+
+
+.value-button-down {
+display: inline-block;
+position: relative;
+top: 0px;
+margin-top: 8px;
+width: 25px;
+height: 25px;
+background: #8934B9;
+color:#ffffff;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-right: 10px;
+border-radius: 50%;
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.value-button-up {
+display: inline-block;
+position: relative;
+top: -3px;
+margin-top: 10px;
+width: 25px;
+height: 25px;
+background: #8934B9;
+color:#ffffff;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-left: 10px;
+border-radius: 50%;
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.value-button-down,.value-button-up:hover { cursor: pointer;}
+
+.input{display: inline-block; text-align: center; margin: 0px; font-size 21px; color: #464646; font-family: 'Raleway', sans-serif;}
+
+.fa-sort-up{font-size: 21px; position: relative; top: 5px; }
+
+.fa-sort-down {font-size: 25px; position: relative; top: -3px; }
+
+img{width: 10%;}

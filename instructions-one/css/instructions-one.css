@@ -1,24 +1,36 @@
-.wrapper{ }
-.grey{background: #f1f1f1;padding: 20px 0px;border-bottom: 1px solid #ffffff;}
 
-.greyTwo{background: #E9E9E9;padding: 20px 0px; border-bottom: 1px solid #ffffff;}
+#app{padding: 0px 15px;}
+body{background:red;}
+.wrapper{ }
+.grey{background: #f1f1f1;padding: 0px 0px;border-bottom: 1px solid #ffffff;}
+
+.greyTwo{background: #E9E9E9;padding: 0px 0px; border-bottom: 1px solid #ffffff;}
 
 .wrapperTwo{ padding: 5px 50px; background: #f1f1f1;}
 
 .headerWrapper{ padding: 15px 20px; background: #ffffff;}
 
 h2{font-size: 24px; color: #464646; font-family: 'Raleway', sans-serif; margin-bottom:0px; font-weight: 300; letter-spacing: 1px; margin-top: 5px;}
-p{font-size: 32px;  letter-spacing: 2px; color: #464646; font-family: 'Raleway', sans-serif;margin: 8px 0px;}
+p{font-size: 22px;  letter-spacing: 2px; color: #464646; font-family: 'Raleway', sans-serif; margin: 8px 0px; font-weight: 300; text-align: center; margin-bottom: 5px !important;}
 
 .noPadding{padding:0px;}
 
-.card{ }
 .innerCard{background:#ffffff; box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.35); border-radius: 5px; border-bottom: 2px solid #8934B9; padding: 10px 10px; width: 100%;}
 
 .form { width: inherit; margin: 0 auto; text-align: center; width: 100%; margin-left: auto ; margin-right: auto ;}
 
-.form-lock-up{    margin: 0 auto; padding-bottom: 10px; padding-top: 0px; margin-top: 5px;}
+.form-lock-up{    margin: 0 auto; padding-bottom: 0px; padding-top: 0px; margin-top: -3px;}
 
+header{padding: 15px 0px;}
+
+.navbar-toggler{background: #016ba8  !important;}
+
+button.primaryContained{ width: ; background: #016ba8; color: #fff; padding: 10px 10px; border: none; margin-top: 0px; cursor: pointer; text-transform: uppercase; letter-spacing: 4px; box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.25); transition: 1s all; font-size: 12px; border-radius: 5px;}
+button.primaryContained:hover{ background: #9201A8; }
+
+.primaryInput{margin-top: 15px; background: #E8E8E8; border:none; padding: 10px 15px; border-radius: 5px 5px 0px 0px; border-bottom: 2px solid #016BA8; transition: all 0.5s;  width: inherit;}
+
+.primaryInput:focus{blur: none; border: none; outline-blur: none; outline: 1px solid #9201A8; box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);}
 
 .value-button-down {
 display: inline-block;
@@ -43,7 +55,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
 .value-button-up {
 display: inline-block;
 position: relative;
-top: -3px;
+top: 0px;
 margin-top: 10px;
 width: 25px;
 height: 25px;
@@ -59,13 +71,58 @@ margin-left: 10px;
 border-radius: 50%;
 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
 }
+.sales p{font-size: 15px;}
+
+.innerCard.userDown { padding-top: 14px;}
+
+.smallFont{font-size: 15px;}
 
 .value-button-down,.value-button-up:hover { cursor: pointer;}
 
 .input{display: inline-block; text-align: center; margin: 0px; font-size 21px; color: #464646; font-family: 'Raleway', sans-serif;}
 
-.fa-sort-up{font-size: 21px; position: relative; top: 5px; }
+.fa-sort-up{font-size: 25px; position: relative; top: 3px; }
 
-.fa-sort-down {font-size: 25px; position: relative; top: -3px; }
+.fa-sort-down {font-size: 25px; position: relative; top: -5px; }
 
-img{width: 10%;}
+img{width: 80%;}
+
+.card{font-size: 21px; padding: 15px; border: none !important; background: none !important; outline: none !important; margin-top: 5px;}
+
+.nav-link{ color: #016ba8 !important; font-weight: 700; transition: color 0.5s;}
+
+.nav-link:hover{color: #8934B9 !important;}
+
+.navbar-expand-lg .navbar-nav .nav-link{font-size: 14px; font-weight: lighter;}
+
+.pipe{visibility: hidden;}
+
+.nav.navbar.navbar-expand-lg.navbar-inverse.bg-inverse.container { text-align: left !important;}
+
+.close{ color: #8934B9 !important;}
+
+/********************
+MEDIA MIN 1000px
+*********************/
+@media(min-width:1000px){
+
+p{font-size: 25px; text-align: left;}
+
+/********************
+END MEDIA MIN 1000px
+*********************/
+
+/********************
+MEDIA MIN 1200px
+*********************/
+@media(min-width:1200px){
+
+p{font-size: 32px;}
+
+.card{padding: 15px;}
+
+.form-lock-up{margin-top: 0px;}
+
+/********************
+END MEDIA MIN 1200px
+*********************/

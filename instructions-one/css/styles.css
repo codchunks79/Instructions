@@ -41,6 +41,14 @@ button.primaryContained:hover{ background: #9201A8; }
 
 .checkboxSection label{font-size: 14px;}
 
+button.modalButton{background: #016ba8; color: #fff; padding: 10px 10px; border: none; margin-top: 0px; cursor: pointer; text-transform: uppercase; letter-spacing: 4px; box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.25); transition: 1s all; font-size: 12px; border-radius: 5px;}
+
+button.modalButton:hover{background: #9201A8;}
+
+.modal-header, .modal-footer{border-bottom: none !important; border-top: none !important; padding: 5px 0px !important}
+
+.modal-content{ border-radius: 15px !important; padding: 15px 0px !important; border-bottom:2px solid #8934B9 !important; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);}
+
 /**********************
 END LOG IN STYLES
 ***********************/

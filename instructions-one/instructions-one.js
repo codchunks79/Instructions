@@ -162,9 +162,21 @@ Vue.component('contained-button-two',{
 
 });
 
-Vue.component('form-one-name',{
-  template:`<input type="input" class="primaryInput " placeholder="Fist Name" required>`
-})
+Vue.component('modal-button',{
+	template: `
+  <button class='modalButton d-block mx-auto' type='submit'>
+  <slot></slot>
+  </button>
+  `,
+});
+
+Vue.component('form-last-name',{
+  template:`<input type="input" class="primaryInput " placeholder="Last Name" required>`
+});
+
+Vue.component('form-new-user-password',{
+  template:`<input type="input" class="primaryInput " placeholder="Password" required>`
+});
 
 new Vue({
   el: "#app",
